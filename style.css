@@ -1,0 +1,54 @@
+@font-face {
+    font-family: rmono;
+    src: url(../fonts/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    font-family: rmono 'Times New Roman', Times, serif;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(107, 86, 59);;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+.navlists li{
+    display: inline-block;
+    
+}
+.navlists li{
+    text-decoration: none;
+    margin-left: 5rem;
+    color: white;
+    text-transform: capitalize;
+}
+.box{
+    background-color: rgb(177, 147, 109);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+section{
+   
+   
+    padding: 0 3rem;
+}
+section img{
+    width: 522px;
+}
+
+section p{
+    margin: 0 2rem;
+    max-width: 450px;
+}
+.main-con{
+    background-color: blanchedalmond;
+    display: flex;
+}
+h2{
+    letter-spacing: 3px;
+}

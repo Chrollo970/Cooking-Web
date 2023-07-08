@@ -1,0 +1,90 @@
+@font-face {
+    font-family: rmono;
+    src: url(../fonts/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+body{
+    background-color:rgb(241, 238, 224); ;
+}
+*{ 
+    padding:0;
+    margin: 0;
+}
+.container{
+    font-family: rmono;
+    font-weight: 700;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding-left: 4rem;
+    
+    
+}
+.container .omelet-pic{
+    width: 650px;
+}
+
+
+.ingridients{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-left: 30rem;
+    padding: 2rem;
+    background-color:rgb(241, 238, 224);
+    line-height: 1.7rem;
+}
+.ingridients p{
+    
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
+.bx-one{
+    max-width: 550px;
+    background-color:rgb(212, 209, 192) ;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+.bx-two{
+    max-width: 600px;
+}
+
+section{
+   display: flex;
+   justify-content: center;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    padding-top: 8rem;
+}
+.lalagyan{
+   
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.container img{
+    width: 600px;
+    height: auto;
+}
+img{
+    
+    border-radius: 8px;
+    width: 400px;
+    height: 200;
+    
+}
+
+
+
+.card{
+    margin:12px ;
+    margin-bottom: 3rem;
+}
